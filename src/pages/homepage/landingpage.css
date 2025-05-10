@@ -1,0 +1,138 @@
+.landing-container {
+  display: inline;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px;
+  margin-top: 4%;
+  height: 100vh;
+  background: linear-gradient(to right, #fef5f2, #ffdac1);
+  font-family: 'Georgia', serif;
+}
+
+.text-content h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 13%;
+  color: #111;
+  margin-right: 50px;
+}
+
+.text-content p {
+  font-size: 1.25rem;
+  max-width: 600px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  color: black;
+  margin-inline-start: 78px;
+}
+
+.button-group {
+  display: inline;
+  gap: 20px;
+  width: 300px;
+  height: 70px;
+  margin-inline-start: 78px;
+}
+
+.btn-primary {
+  background-color: #0039d7;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background-color: white;
+  color: #111;
+  padding: 12px 24px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.decorative-text {
+  margin-top: 60px;
+  font-family: Arial, Helvetica, sans-serif, cursive;
+  font-size: 1.5rem;
+  color: #f5b9bb;
+  text-align: right;
+  opacity: 0.4;
+}
+
+.prompt-section {
+  padding: 80px 20px;
+  background: #ffffff;
+  min-height: 100vh;
+  text-align: center;
+  font-family: 'Georgia', serif;
+}
+
+.prompt-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-bottom: 40px;
+}
+
+.box {
+  border: 2px dashed blue;
+  border-radius: 4px;
+  width: 240px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+  position: relative;
+}
+
+.subtext {
+  font-size: 14px;
+  color: gray;
+  margin-top: 10px;
+}
+
+.prompt-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+}
+
+.convert-btn {
+  background-color: #5e6572;
+  color: white;
+  padding: 10px 25px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  opacity: 0.8;
+  cursor: not-allowed;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.download-btn {
+  background-color: #0047ff;
+  color: white;
+  padding: 10px 25px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #0033cc;
+}

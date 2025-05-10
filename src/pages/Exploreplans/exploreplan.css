@@ -1,0 +1,78 @@
+.explore-page {
+  padding: 2rem;
+  text-align: center;
+  background-color: #7e4848;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.plans-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.plan-card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.plan-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.plan-card.active {
+  border: 2px solid #007bff;
+}
+
+h3 {
+  margin-bottom: 1rem;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+
+.feature-button {
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 20px;
+  padding: 0.4rem 0.8rem;
+  cursor: default;
+  font-size: 0.85rem;
+}
+
+.description {
+  font-size: 0.9rem;
+  margin: 1rem 0;
+  color: #555;
+}
+
+.buy-now {
+  background-color: #007bff;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buy-now:hover {
+  background-color: #0056b3;
+}
